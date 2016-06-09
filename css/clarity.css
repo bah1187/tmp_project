@@ -1,0 +1,248 @@
+/*Mobile*/
+
+/*General*/
+
+* {
+  box-sizing: border-box;
+}
+
+a{
+text-decoration: none;
+
+}
+
+.wrap{
+margin-top: 20px;
+
+}
+
+.container{
+  padding-left: 1em;
+  padding-right: 1em;
+
+}
+/*navigation/header*/
+
+.menu-icon {
+height: 40px;
+float:right;
+}
+
+
+.nav1{
+display: none;
+text-align: center;
+padding-top: 5px;
+background-color: #ffdb58;
+}
+
+.nav1 li a{
+display:block;
+color: black;
+text-decoration:none;
+border-bottom-style: solid;
+border-width: thin;
+}
+
+
+.nav2 {
+display: none;
+
+}
+
+.heading {
+width: 100%;
+border-top-style: solid;
+padding-top: 10px;
+border-color: grey;
+border-width: 30px;
+}
+
+/*body*/
+
+.primarycol h2 {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.gallery img{
+padding-bottom: 4px;
+
+}
+.gallery{
+margin-top: -10px;
+
+}
+
+.employee1,.employee2 {
+width:250px;
+height:156px;
+
+
+}
+
+.gallery{
+display: block;
+margin-top: 20px;
+
+}
+
+.social{
+margin-top: -15px;
+
+}
+
+.twitter,.linkedin,.facebook{
+height: 20px;
+
+}
+
+.youtube{
+height:25px;
+
+}
+
+h2{
+font-family: 'Open Sans', sans-serif;
+
+}
+
+p, .secondaryul a{
+color: #808080;
+
+}
+
+.secondaryul li:before{
+content: ">";
+color: #808080;
+}
+
+.secondaryul a,li{
+list-style: none;
+text-decoration: none;
+padding-bottom: 10px;
+
+}
+
+
+
+/*Footer*/
+
+
+.footul li, .footul a{
+display: inline-block;
+text-decoration: none;
+text-align: center;
+color: black;
+padding-top: 5px;
+}
+
+.footul{
+text-align: center;
+background-color:#808080;
+
+}
+
+.footul li:after{
+content:"|"
+
+}
+
+.footul li:last-child:after{
+  content:"";
+}
+
+.footul a{
+padding-right: 10px;
+}
+
+/*media queries/desktop*/
+
+@media (min-width:769px){
+
+/*sticky footer*/
+
+.wrap{
+    min-height: calc(100vh - 44px);
+  }
+
+.container2{
+  padding-left: 1em;
+  padding-right: 1em;
+
+}
+
+
+
+/*Navigation*/
+
+.menu-icon{
+display: none;
+
+}
+
+.nav2{
+float: right;
+display: inline;
+
+}
+
+.nav2 li {
+  display: inline;
+  text-decoration: none;
+  padding-right: 10px;
+
+}
+
+.nav2 a{
+color: #808080;
+
+
+}
+
+.nav2 li:after{
+content:"|"
+
+}
+
+.nav2 li:last-child:after{
+  content:"";
+}
+
+
+
+.twocolumn{
+display:flex;
+
+}
+
+
+
+.primarycol{
+width: 60%;
+padding-left: 2em;
+padding-right: 2em;
+margin-top: 10px;
+}
+.secondarycol{
+margin-left: 80px;
+flex: 2;
+
+height:300px;
+padding-left: 30x;
+margin-top: 20px;
+
+}
+
+.connect{
+  border:1px solid;
+  margin-bottom: 20px;
+  padding: 10px 10px 10px 10px;
+}
+
+.useful{
+border:1px solid;
+padding: 10px 10px 10px 10px;
+}
+
+}
